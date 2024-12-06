@@ -77,7 +77,7 @@
                 {
                     "name": "negative",
                     "id": "f2285c70-6f8e-45cd-9be6-e06618ace570",
-                    "path": "<Keyboard>/downArrow",
+                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -88,7 +88,7 @@
                 {
                     "name": "positive",
                     "id": "f168dad5-9393-4627-b4ea-d38a5ee68033",
-                    "path": "<Keyboard>/upArrow",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -108,26 +108,37 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "16fe6cfc-de7a-45ae-8f9a-2bd3e586a61b",
-                    "path": "<Keyboard>/d",
+                    "name": "1D Axis",
+                    "id": "07d58120-1ffb-4c9f-935b-a976547c7042",
+                    "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "RotateLeftRight",
-                    "isComposite": false,
+                    "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "dc90a4cc-8ebe-4db4-8e09-77db454b41ef",
+                    "name": "negative",
+                    "id": "7ae7a2c1-d44f-4b4f-a843-7055842474d7",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "RotateLeftRight",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "8307db58-d20b-4834-b64d-0d61ad04a5b0",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateLeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "",
@@ -141,26 +152,37 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "e3cf0775-4d10-44c4-b9fe-cda37a81958a",
+                    "name": "1D Axis",
+                    "id": "30adb070-93dd-4b96-8072-b4309e4ac7fe",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateTurret",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "076ce5fe-5dd6-435d-8962-7cedfeb1d676",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "RotateTurret",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "b11eb4b1-3acf-4540-8180-058be941f5d5",
+                    "name": "positive",
+                    "id": "a432d404-e988-4352-8477-eacab5f37a2f",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "RotateTurret",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "",
