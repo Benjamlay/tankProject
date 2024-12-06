@@ -19,6 +19,7 @@ public class tankControl : MonoBehaviour
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
+        _rigidbody.centerOfMass = Vector3.zero;
     }
 
     // Update is called once per frame

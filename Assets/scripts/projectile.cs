@@ -22,7 +22,7 @@ public class projectile : MonoBehaviour
     private void OnCollisionEnter(Collision other)
     {
         Debug.Log("collision Enter ???" + other.gameObject.name);
-
+        Destroy(gameObject);
         if (other.collider.CompareTag("destructible"))
         {
             Destroy(other.gameObject);
